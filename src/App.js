@@ -4,6 +4,7 @@ import useToken from './components/useToken';
 //components
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import Password from './components/Password';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login setToken={setToken} token={token} />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/password" element={<Password />} />
       </Routes>
     </BrowserRouter>
   );
