@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.SignUp {
+    background-image:
+    linear-gradient(to bottom, rgba(247, 247, 130, 0.5), rgba(35, 35, 168, 0.603)),
+    url("../../public/static/images/fondecran_rse3.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: auto;
+    /* font-size: calc(10px + 2vmin); */
+}
+
+.ButtonReturn {
+    display: flex;
+    /* justify-content: center; */
+    margin: 10px;
+    flex-direction: row;
+}
+
+.FormSignUp {
+    margin: 50px;
+    width: 365px;
+    border-radius: 25px !important;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ffc331 !important;
+    text-align-last: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.SignUpTitle {
+    font-family: 'Mukta';
+    text-align: center;
+    margin-top: 50px;
+}
+.SignUpText {
+    font-family: 'Roboto';
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    margin: 0 0 -30px 20px;
+    font-weight: lighter;
+}
+
+.CheckBoxRGPD{
+    margin: 25px 0px 0px 20px;
+    font-size: 10px !important;
+}
+
+.FormStyleSignUp {
+    border-radius: 25px !important;
+    width: 90% !important;
+    margin:10px !important;
+}
+
+.ButtonSignUp {
+    background-color: #ffc331 !important;
+    margin: 20px auto 20px auto !important;
+    font-family: 'Mukta' !important;
+    color: black !important;
+    border-radius: 25px !important;
+}

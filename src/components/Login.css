@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.Login {
+    background-image:
+    linear-gradient(to bottom, rgba(247, 247, 130, 0.5), rgba(35, 35, 168, 0.603)),
+    url("../../public/static/images/fondecran_rse3.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: auto;
+}
+
+.FormLogin {
+    margin: 50px;
+    width: 350px;
+    height: 430px;
+    border-radius: 25px !important;
+    border: 1px solid #ffc331 !important;
+    text-align-last: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, white 100%);
+}
+
+.LoginTitle {
+    font-family: 'Mukta';
+    text-align: center;
+    margin-top: 0px;
+}
+
+.LoginText {
+    font-family: 'Mukta';
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+.ForgetPassword {
+    font-family: 'Mukta';
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.NoLogin {
+    font-family: 'Mukta';
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.loginCompteText{
+    color: #db4319;
+}
+
+.FormStyleLogin {
+    border-radius: 25px !important;
+    width: 90% !important;
+    margin:10px !important;
+}
+
+.ButtonLogin {
+    background-color: #ffc331 !important;
+    margin: 45px auto 20px auto !important;
+    font-family: 'Mukta' !important;
+    color: black !important;
+    border-radius: 25px !important;
+}
