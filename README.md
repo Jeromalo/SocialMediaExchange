@@ -1,1 +1,5 @@
 # SocialMediaExchange
+
+React
+Flask
+JWT
